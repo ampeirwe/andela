@@ -1,4 +1,5 @@
 
+
     #Assignment two
 #Questions one
 def numbers():
@@ -56,27 +57,18 @@ def banking():
 banking()
 
 
+#Question 5
+def powers():
+    zonka = list()
+    for i in range(1,20):
+        ned = i**2
+        zonka.append(ned)
+    ned1 = zonka[0:4]
+    print(ned1)
+powers()
+  
+    
+    
+    
 
 
-
-
-def binary():
-    zonka = []
-    zona = []
-    while True:
-        inp1 = input("Enter 1st number that is binary")
-        inp2 = input("Enter 2nd number that is binary")
-        inp3 = input("Enter 3rd number that is binary")
-        inp4 = input("Enter 4th number that is binary")
-        if(inp1== '-1' or inp2=='-1' or inp3 == '-1'  inp4=='-1'):
-            break
-        else:
-            continue
-    final = inp1+inp2+inp3+inp4
-    final2 = int(final)
-    zona.append(final2)
-    for final3 in zona:
-        if(final3%5!=0):
-            zonka.append(final3)
-    print(zonka)
-binary()
